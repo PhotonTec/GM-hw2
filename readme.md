@@ -1,6 +1,6 @@
 # DCGAN Generative Model for CIFAR-10
 
-This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) to generate images from the CIFAR-10 dataset. The repository includes training and testing scripts for two models: one capable of generating images in specific categories (`model_withlabel.py`), and another that generates images without category constraints (`model.py`). The training code for the labeled generator is in `train_wl.py`. Checkpoints for both models are stored in the `ckpt` folder, and the `requirements.txt` file lists the necessary dependencies.
+This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) to generate images from the CIFAR-10 dataset. The repository includes training and testing scripts for two models: one capable of generating images in specific categories (`model_withlabel.py`), and another that generates images without category constraints (`model.py`). The training code for the labeled generator is in `train_wl.py`. Checkpoints for both models are stored in the `ckpt` folder, and the `requirements.txt` file lists the necessary dependencies. Generated images are stored in the `imgs` folder.
 
 ## Project Structure
 
